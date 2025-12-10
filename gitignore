@@ -1,0 +1,16 @@
+# Backup files
+*.backup
+*~
+*.swp
+*.swo
+
+# Log files
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+tmp/
+temp/
