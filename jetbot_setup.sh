@@ -162,8 +162,7 @@ sudo apt install -y \
     wget \
     build-essential \
     xterm \
-    tigervnc-standalone-server \
-    tigervnc-common
+    x11vnc
 
 log_info "設定 Git LFS..."
 git lfs install
@@ -221,7 +220,7 @@ log_info "  ✓ Adafruit MotorHAT & SSD1306"
 log_info "  ✓ OpenCV & 相機套件"
 log_info "  ✓ RTAB-Map SLAM"
 log_info "  ✓ TF2 & Robot State Publisher"
-log_info "  ✓ Git LFS & VNC"
+log_info "  ✓ Git LFS & x11vnc"
 echo ""
 log_warn "⚠️  重要提醒:"
 log_warn "  1. 請執行以下指令使環境變數生效:"
